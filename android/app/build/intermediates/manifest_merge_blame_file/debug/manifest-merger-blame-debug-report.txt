@@ -1,0 +1,212 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.admin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.75.1] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/e1d669587456380c8d4e62dfc92484ee/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.75.1] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/e1d669587456380c8d4e62dfc92484ee/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+14-->[:react-native-maps] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
+14-->[:react-native-maps] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-78
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-maps:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/891c642bb12c828ea6c35881dd153d53/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-maps:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/891c642bb12c828ea6c35881dd153d53/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/891c642bb12c828ea6c35881dd153d53/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/891c642bb12c828ea6c35881dd153d53/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/891c642bb12c828ea6c35881dd153d53/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+20
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:24:5-68
+21-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:24:22-65
+22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+22-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:5-110
+22-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:22-107
+23
+24    <application
+24-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:6:5-28:19
+25        android:name="com.admin.MainApplication"
+25-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:7:7-38
+26        android:allowBackup="false"
+26-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:11:7-34
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/11a797cebefefed665d4013bac2be5f6/core-1.2.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:9:7-41
+30        android:label="@string/app_name"
+30-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:8:7-39
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:10:7-52
+32        android:theme="@style/AppTheme"
+32-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:12:7-38
+33        android:usesCleartextTraffic="true" >
+33-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/debug/AndroidManifest.xml:8:9-44
+34        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+34-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/debug/AndroidManifest.xml:11:9-86
+34-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/debug/AndroidManifest.xml:11:19-83
+35        <activity
+35-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:13:7-23:18
+36            android:name="com.admin.MainActivity"
+36-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:14:9-37
+37            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+37-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:16:9-86
+38            android:label="@string/app_name"
+38-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:15:9-41
+39            android:launchMode="singleTask"
+39-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:17:9-40
+40            android:windowSoftInputMode="adjustResize" >
+40-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:18:9-51
+41            <intent-filter>
+41-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:19:9-22:25
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:20:13-65
+42-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:20:21-62
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:21:13-73
+44-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:21:23-70
+45            </intent-filter>
+46        </activity>
+47
+48        <meta-data
+48-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:24:7-26:66
+49            android:name="com.google.android.geo.API_KEY"
+49-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:25:9-54
+50            android:value="AIzaSyD8V_83xsWw8BjZz6F6w-gKgvk8IeBTDic" />
+50-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:26:9-64
+51
+52        <uses-library
+52-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:27:7-85
+53            android:name="org.apache.http.legacy"
+53-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:27:21-58
+54            android:required="false" />
+54-->/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:27:59-83
+55
+56        <activity
+56-->[com.google.android.gms:play-services-auth:19.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+57            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+57-->[com.google.android.gms:play-services-auth:19.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+58            android:excludeFromRecents="true"
+58-->[com.google.android.gms:play-services-auth:19.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+59            android:exported="false"
+59-->[com.google.android.gms:play-services-auth:19.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+60            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+60-->[com.google.android.gms:play-services-auth:19.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+61        <!--
+62            Service handling Google Sign-In user revocation. For apps that do not integrate with
+63            Google Sign-In, this service will never be started.
+64        -->
+65        <service
+65-->[com.google.android.gms:play-services-auth:19.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+66            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+66-->[com.google.android.gms:play-services-auth:19.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+67            android:exported="true"
+67-->[com.google.android.gms:play-services-auth:19.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+68            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+68-->[com.google.android.gms:play-services-auth:19.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+69            android:visibleToInstantApps="true" />
+69-->[com.google.android.gms:play-services-auth:19.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+70        <service
+70-->[com.google.firebase:firebase-firestore:23.0.3] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/fd2d2d467fbe4a611ea4abaef1b8112d/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:17:9-23:19
+71            android:name="com.google.firebase.components.ComponentDiscoveryService"
+71-->[com.google.firebase:firebase-firestore:23.0.3] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/fd2d2d467fbe4a611ea4abaef1b8112d/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:18:13-84
+72            android:directBootAware="true"
+72-->[com.google.firebase:firebase-common:20.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+73            android:exported="false" >
+73-->[com.google.firebase:firebase-firestore:23.0.3] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/fd2d2d467fbe4a611ea4abaef1b8112d/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:19:13-37
+74            <meta-data
+74-->[com.google.firebase:firebase-firestore:23.0.3] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/fd2d2d467fbe4a611ea4abaef1b8112d/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:20:13-22:85
+75                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+75-->[com.google.firebase:firebase-firestore:23.0.3] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/fd2d2d467fbe4a611ea4abaef1b8112d/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:21:17-111
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-firestore:23.0.3] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/fd2d2d467fbe4a611ea4abaef1b8112d/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:22:17-82
+77            <meta-data
+77-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:30:13-32:85
+78                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+78-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:31:17-139
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:32:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-installations:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+81                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+81-->[com.google.firebase:firebase-installations:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-installations:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+83        </service>
+84
+85        <activity
+85-->[com.google.android.gms:play-services-base:17.5.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/539b7be7a2b3a05a04064c89f6e7b6d2/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+86            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+86-->[com.google.android.gms:play-services-base:17.5.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/539b7be7a2b3a05a04064c89f6e7b6d2/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+87            android:exported="false"
+87-->[com.google.android.gms:play-services-base:17.5.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/539b7be7a2b3a05a04064c89f6e7b6d2/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+88            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+88-->[com.google.android.gms:play-services-base:17.5.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/539b7be7a2b3a05a04064c89f6e7b6d2/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+89
+90        <provider
+90-->[com.google.firebase:firebase-common:20.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+91            android:name="com.google.firebase.provider.FirebaseInitProvider"
+91-->[com.google.firebase:firebase-common:20.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+92            android:authorities="com.admin.firebaseinitprovider"
+92-->[com.google.firebase:firebase-common:20.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+93            android:directBootAware="true"
+93-->[com.google.firebase:firebase-common:20.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+94            android:exported="false"
+94-->[com.google.firebase:firebase-common:20.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+95            android:initOrder="100" />
+95-->[com.google.firebase:firebase-common:20.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+96
+97        <receiver
+97-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:29:9-33:20
+98            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+98-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:30:13-85
+99            android:enabled="true"
+99-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:31:13-35
+100            android:exported="false" >
+100-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:32:13-37
+101        </receiver>
+102
+103        <service
+103-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:35:9-38:40
+104            android:name="com.google.android.gms.measurement.AppMeasurementService"
+104-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:36:13-84
+105            android:enabled="true"
+105-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:37:13-35
+106            android:exported="false" />
+106-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:38:13-37
+107        <service
+107-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:39:9-43:72
+108            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+108-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:40:13-87
+109            android:enabled="true"
+109-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:41:13-35
+110            android:exported="false"
+110-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:42:13-37
+111            android:permission="android.permission.BIND_JOB_SERVICE" />
+111-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:43:13-69
+112
+113        <meta-data
+113-->[com.google.android.gms:play-services-basement:17.5.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/819ec8c6af10e4a00a056b819af593de/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+114            android:name="com.google.android.gms.version"
+114-->[com.google.android.gms:play-services-basement:17.5.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/819ec8c6af10e4a00a056b819af593de/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+115            android:value="@integer/google_play_services_version" />
+115-->[com.google.android.gms:play-services-basement:17.5.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/819ec8c6af10e4a00a056b819af593de/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+116    </application>
+117
+118</manifest>

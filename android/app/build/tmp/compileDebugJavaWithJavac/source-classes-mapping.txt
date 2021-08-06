@@ -1,0 +1,14 @@
+com/admin/ReactNativeFlipper.java
+ com.admin.ReactNativeFlipper
+ com.admin.ReactNativeFlipper$1
+ com.admin.ReactNativeFlipper$2
+ com.admin.ReactNativeFlipper$2$1
+com/admin/BuildConfig.java
+ com.admin.BuildConfig
+com/admin/MainActivity.java
+ com.admin.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/admin/MainApplication.java
+ com.admin.MainApplication
+ com.admin.MainApplication$1
