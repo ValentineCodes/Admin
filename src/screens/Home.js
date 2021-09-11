@@ -95,7 +95,7 @@ export default function Home() {
   const [viewImage, setViewImage] = useState(false);
   const [viewReportData, setViewReportData] = useState(false);
 
-  const _map = useRef(null);
+  const mapView = useRef();
 
   const drawerPositon = useSharedValue(screenWidth);
 
@@ -123,18 +123,15 @@ export default function Home() {
   };
 
   const showMyLocation = location => {
-    if (_map.current) {
-      _map.current.animateCamera(
-        {
-          center: {
-            latitude: location.lat,
-            longitude: location.long,
-          },
-          zoom: 15,
-        },
-        5000,
-      );
-    }
+    mapView.current.animateToRegion(
+      {
+        latitude: location.lat,
+        longitude: location.long,
+        latitudeDelta: 0.05,
+        longitudeDelta: 0.05,
+      },
+      500,
+    );
     hideDrawer();
   };
 
@@ -192,7 +189,7 @@ export default function Home() {
       <MapView
         style={{flex: 1}}
         customMapStyle={mapStyle}
-        ref={_map}
+        ref={mapView}
         showsCompass={false}
         initialRegion={initialRegion}>
         {cases.map(report => (
@@ -253,24 +250,13 @@ export default function Home() {
             backgroundColor: Colors.primary,
             flex: 3,
           }}>
-          <View style={styles.reportsHeader}>
-            <Text
-              style={{
-                color: 'red',
-                fontSize: screenWidth / 15,
-                fontWeight: 'bold',
-              }}>
-              Reports
-            </Text>
-
-            {/* Search Bar */}
-            <TextInput
-              placeholder="Search Name/Address"
-              style={styles.searchBar}
-              onChangeText={searchReports}
-              value={searchText}
-            />
-          </View>
+          {/* Search Bar */}
+          <TextInput
+            placeholder="Search Name/Address"
+            style={styles.searchBar}
+            onChangeText={searchReports}
+            value={searchText}
+          />
 
           <FlatList
             data={searchResults.length == 0 ? cases : searchResults}
