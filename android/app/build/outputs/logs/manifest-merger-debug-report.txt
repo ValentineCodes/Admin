@@ -1,20 +1,23 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:1:1-29:12
-INJECTED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:1:1-29:12
-INJECTED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:1:1-29:12
-INJECTED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:1:1-29:12
-MERGED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:1:1-29:12
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:1:1-51:12
+MERGED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:1:1-51:12
 MERGED from [hermes-debug.aar] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/caa312f639944f4291438694ecca46df/jetified-hermes-debug/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.flipper:flipper:0.75.1] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/e1d669587456380c8d4e62dfc92484ee/jetified-flipper-0.75.1/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.75.1] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/e615367cba6d37165295db0ac8691771/jetified-flipper-network-plugin-0.75.1/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.75.1] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c02d4d7db539412ee6d5e9e7455f76bf/jetified-flipper-fresco-plugin-0.75.1/AndroidManifest.xml:8:1-15:12
 MERGED from [:react-native-maps] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-push-notification] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-navigation-bar-color] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-navigation-bar-color/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-async-storage_async-storage] /Users/valentineorga/Desktop/Projects/Admin/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-community_masked-view] /Users/valentineorga/Desktop/Projects/Admin/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-firebase_firestore] /Users/valentineorga/Desktop/Projects/Admin/node_modules/@react-native-firebase/firestore/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-firebase_app] /Users/valentineorga/Desktop/Projects/Admin/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-get-location] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-get-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-vector-icons] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
@@ -29,9 +32,13 @@ MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /Users/val
 MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/539b7be7a2b3a05a04064c89f6e7b6d2/jetified-play-services-base-17.5.0/AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/47a22d42accc6fe24601a71e457e4f8a/jetified-firebase-analytics-19.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-reanimated] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-reanimated/android/build/.transforms/6a250b5fa0c94ac506b91555ae107ea9/jetified-react-native-reanimated-64-hermes/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:17:1-58:12
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/bf606e5670d7119405b2092a26d708a8/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/3a1a2e3b3f1fe1e44a699f2492a73e17/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:17:1-36:12
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/e596e6063f2d40c60c4e75722994371c/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/e596e6063f2d40c60c4e75722994371c/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
 MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/29bae37c1af4b0b054cf0d15b73868f5/jetified-flipper-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/8eb50c914ad44965f604ecddda5fae30/jetified-stetho-2.2.0/AndroidManifest.xml:2:1-9:12
@@ -52,6 +59,7 @@ MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/valentineorga/
 MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/8dc9f5f041eedee1aaaeaebefeccad7b/jetified-imagepipeline-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2156bbd2fb17499c91c664d73024dbee/jetified-nativeimagetranscoder-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/e696c439c040ca5b88beded67b3973d8/jetified-imagepipeline-base-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:15:1-41:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/34509534d074f4a2ee4310c9df995de5/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6825810b1265af64127a63ce937f0eb6/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/1c7b30d600fe1b4a44f027f3958914d0/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -59,12 +67,14 @@ MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/valent
 MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:17:1-46:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/7b3219a47a842c6e84c236ed2215525c/jetified-play-services-measurement-sdk-19.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6b4b195decf898d4783eb811061bf535/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/31665edcaf53e4150e5c3297f6a32525/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d10318ecd5480256ce2cedcb0a0acaf6/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d52eeee384bdafb633ba6a2df9a2c9b1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a3990f778b40b19aeedea94baf6ea4c9/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/4b93ac8de58ec1e72123b4660c358d2e/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/194b3195edb7859c639b53ca5395abdc/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/5ccf68b5a3a9127b4980edcd49ea8e34/jetified-play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/99442e8c5c1002bdc091740ab2c74d34/jetified-play-services-measurement-base-19.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d52eeee384bdafb633ba6a2df9a2c9b1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/4b93ac8de58ec1e72123b4660c358d2e/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/377e33dba25c11224b822b23e5788cd1/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/3d3abdf75f5332f84e45535c0a73cded/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/819ec8c6af10e4a00a056b819af593de/jetified-play-services-basement-17.5.0/AndroidManifest.xml:17:1-28:12
@@ -74,9 +84,10 @@ MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/valentin
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d3fca96bb4379e0d1a842188a39af196/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/5d3192adb20d9bf386886018ccfc00f4/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/7647bcaac81a96c69bff648e6b0c4123/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/7c1507e0909ff8cc61a9db17610fd594/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/7cdb36d12a0b4e03e8265bb20860bf44/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/f7437b3c59bfacbdc85523d95b7efaf7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d68c2dd6c559e1e09125f815ea6604d1/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/7cdb36d12a0b4e03e8265bb20860bf44/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.transition:transition:1.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/685a429b7b460b1102cbd40dc6ffb21c/transition-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6e251e626ddee01f89e2773cf95b32aa/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/245aaa699df46d41a171a57f451b218d/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -97,6 +108,7 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/valentineorga/.gra
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/145b3b5f45e16a7a4e3abf5408878e20/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/8a43e4cb08b9d5efaaff92255a9e853a/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d684392952d3a4d684788330ec8456c7/jetified-android-maps-utils-0.5/AndroidManifest.xml:2:1-13:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2eb33fc3decbc1dc20f1cf17b12b21ff/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/70945aba1d55af553dcaab829ea844bd/jetified-ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/9cd4656b7fe37a796b3a4a34c7e0217f/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
@@ -110,13 +122,13 @@ INJECTED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/debug/
 		INJECTED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:1:1-29:12
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:1:1-51:12
 		INJECTED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:1:1-29:12
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:1:1-51:12
 		INJECTED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -130,22 +142,58 @@ MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/valentineo
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/891c642bb12c828ea6c35881dd153d53/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/fd2d2d467fbe4a611ea4abaef1b8112d/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/fd2d2d467fbe4a611ea4abaef1b8112d/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/31665edcaf53e4150e5c3297f6a32525/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/31665edcaf53e4150e5c3297f6a32525/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
 MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d10318ecd5480256ce2cedcb0a0acaf6/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d10318ecd5480256ce2cedcb0a0acaf6/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/5ccf68b5a3a9127b4980edcd49ea8e34/jetified-play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/5ccf68b5a3a9127b4980edcd49ea8e34/jetified-play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:5:5-78
+	android:name
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:6:5-80
+MERGED from [:react-native-maps] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
+MERGED from [:react-native-maps] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
+MERGED from [:react-native-get-location] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-get-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+MERGED from [:react-native-get-location] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-get-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:7:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:9:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:10:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:11:22-78
 application
-ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:6:5-28:19
-MERGED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:6:5-28:19
-MERGED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:6:5-28:19
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:13:5-50:19
+MERGED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:13:5-50:19
+MERGED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:13:5-50:19
 MERGED from [com.facebook.react:react-native:0.64.2] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/75b24be55300a09ad982ed2efd1befdb/jetified-react-native-0.64.2/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.64.2] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/75b24be55300a09ad982ed2efd1befdb/jetified-react-native-0.64.2/AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/891c642bb12c828ea6c35881dd153d53/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
@@ -158,18 +206,26 @@ MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/valentineo
 MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/539b7be7a2b3a05a04064c89f6e7b6d2/jetified-play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/47a22d42accc6fe24601a71e457e4f8a/jetified-firebase-analytics-19.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/47a22d42accc6fe24601a71e457e4f8a/jetified-firebase-analytics-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/bf606e5670d7119405b2092a26d708a8/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/bf606e5670d7119405b2092a26d708a8/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/e596e6063f2d40c60c4e75722994371c/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/e596e6063f2d40c60c4e75722994371c/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/e596e6063f2d40c60c4e75722994371c/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/e596e6063f2d40c60c4e75722994371c/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
 MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
 MERGED from [com.facebook.soloader:soloader:0.10.1] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/15d8c773228ed4f10068cde62f5e667a/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.1] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/15d8c773228ed4f10068cde62f5e667a/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/121c1b7561d49d1b372ceeda497bdd1c/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/121c1b7561d49d1b372ceeda497bdd1c/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:25:5-39:19
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/f41097c730cebc6434d9f2d51bd2e49d/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/f41097c730cebc6434d9f2d51bd2e49d/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:28:5-44:19
@@ -180,14 +236,16 @@ MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Us
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6b4b195decf898d4783eb811061bf535/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d10318ecd5480256ce2cedcb0a0acaf6/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:28:5-29:19
 MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d10318ecd5480256ce2cedcb0a0acaf6/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d52eeee384bdafb633ba6a2df9a2c9b1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d52eeee384bdafb633ba6a2df9a2c9b1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a3990f778b40b19aeedea94baf6ea4c9/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a3990f778b40b19aeedea94baf6ea4c9/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/4b93ac8de58ec1e72123b4660c358d2e/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/4b93ac8de58ec1e72123b4660c358d2e/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/194b3195edb7859c639b53ca5395abdc/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/194b3195edb7859c639b53ca5395abdc/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/99442e8c5c1002bdc091740ab2c74d34/jetified-play-services-measurement-base-19.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/99442e8c5c1002bdc091740ab2c74d34/jetified-play-services-measurement-base-19.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d52eeee384bdafb633ba6a2df9a2c9b1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d52eeee384bdafb633ba6a2df9a2c9b1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/4b93ac8de58ec1e72123b4660c358d2e/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/4b93ac8de58ec1e72123b4660c358d2e/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/3d3abdf75f5332f84e45535c0a73cded/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/3d3abdf75f5332f84e45535c0a73cded/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/819ec8c6af10e4a00a056b819af593de/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
@@ -201,65 +259,103 @@ MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/valentineorg
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/11a797cebefefed665d4013bac2be5f6/core-1.2.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:8:7-39
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:15:7-39
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:15:7-39
 	tools:ignore
 		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/debug/AndroidManifest.xml:10:9-48
 	android:roundIcon
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:10:7-52
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:17:7-52
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:17:7-52
 	tools:targetApi
 		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/debug/AndroidManifest.xml:9:9-29
 	android:icon
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:9:7-41
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:16:7-41
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:16:7-41
 	android:allowBackup
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:11:7-34
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:18:7-34
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:18:7-34
 	android:theme
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:12:7-38
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:19:7-38
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:19:7-38
 	android:usesCleartextTraffic
 		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/debug/AndroidManifest.xml:8:9-44
 	android:name
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:7:7-38
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:7:7-38
-activity#com.admin.MainActivity
-ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:13:7-23:18
-	android:label
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:15:9-41
-	android:launchMode
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:17:9-40
-	android:windowSoftInputMode
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:18:9-51
-	android:configChanges
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:16:9-86
-	android:name
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:14:9-37
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:19:9-22:25
-action#android.intent.action.MAIN
-ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:20:13-65
-	android:name
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:20:21-62
-category#android.intent.category.LAUNCHER
-ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:21:13-73
-	android:name
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:21:23-70
-meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:24:7-26:66
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:14:7-38
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:14:7-38
+meta-data#com.dieam.reactnativepushnotification.notification_foreground
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:20:7-21:44
 	android:value
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:26:9-64
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:21:21-42
 	android:name
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:25:9-54
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:20:19-95
+meta-data#com.dieam.reactnativepushnotification.notification_color
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:23:7-24:54
+	android:resource
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:24:21-52
+	android:name
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:23:19-90
+receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationActions
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:26:7-106
+	android:name
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:26:17-103
+receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:27:7-108
+	android:name
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:27:17-105
+receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:28:7-34:18
+	android:name
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:28:17-113
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:29:11-33:27
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:30:15-77
+	android:name
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:30:23-74
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:31:15-80
+	android:name
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:31:23-77
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:32:15-79
+	android:name
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:32:23-77
+activity#com.admin.MainActivity
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:35:7-45:18
+	android:label
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:37:9-41
+	android:launchMode
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:39:9-40
+	android:windowSoftInputMode
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:40:9-51
+	android:configChanges
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:38:9-86
+	android:name
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:36:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:41:9-44:25
+action#android.intent.action.MAIN
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:42:13-65
+	android:name
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:42:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:43:13-73
+	android:name
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:43:23-70
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:46:7-48:66
+	android:value
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:48:9-64
+	android:name
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:47:9-54
 uses-library#org.apache.http.legacy
-ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:27:7-85
+ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:49:7-85
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/891c642bb12c828ea6c35881dd153d53/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/891c642bb12c828ea6c35881dd153d53/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
 	android:required
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:27:59-83
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:49:59-83
 	android:name
-		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:27:21-58
+		ADDED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml:49:21-58
 uses-sdk
 INJECTED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/AndroidManifest.xml
@@ -274,6 +370,10 @@ MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.75.1] /Users/valentine
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.75.1] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c02d4d7db539412ee6d5e9e7455f76bf/jetified-flipper-fresco-plugin-0.75.1/AndroidManifest.xml:11:5-13:41
 MERGED from [:react-native-maps] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-maps] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-push-notification] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-push-notification] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation-bar-color] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-navigation-bar-color/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation-bar-color] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-navigation-bar-color/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-async-storage_async-storage] /Users/valentineorga/Desktop/Projects/Admin/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-async-storage_async-storage] /Users/valentineorga/Desktop/Projects/Admin/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] /Users/valentineorga/Desktop/Projects/Admin/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
@@ -284,6 +384,8 @@ MERGED from [:react-native-firebase_app] /Users/valentineorga/Desktop/Projects/A
 MERGED from [:react-native-firebase_app] /Users/valentineorga/Desktop/Projects/Admin/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-get-location] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-get-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-get-location] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-get-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
@@ -312,12 +414,20 @@ MERGED from [com.google.firebase:firebase-analytics:19.0.0] /Users/valentineorga
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/47a22d42accc6fe24601a71e457e4f8a/jetified-firebase-analytics-19.0.0/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-reanimated] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-reanimated/android/build/.transforms/6a250b5fa0c94ac506b91555ae107ea9/jetified-react-native-reanimated-64-hermes/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-reanimated/android/build/.transforms/6a250b5fa0c94ac506b91555ae107ea9/jetified-react-native-reanimated-64-hermes/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/bf606e5670d7119405b2092a26d708a8/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/bf606e5670d7119405b2092a26d708a8/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/3a1a2e3b3f1fe1e44a699f2492a73e17/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/3a1a2e3b3f1fe1e44a699f2492a73e17/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/e596e6063f2d40c60c4e75722994371c/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/e596e6063f2d40c60c4e75722994371c/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/e596e6063f2d40c60c4e75722994371c/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/e596e6063f2d40c60c4e75722994371c/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/29bae37c1af4b0b054cf0d15b73868f5/jetified-flipper-2.2.0/AndroidManifest.xml:5:5-7:41
@@ -358,6 +468,8 @@ MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/valentineor
 MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2156bbd2fb17499c91c664d73024dbee/jetified-nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/e696c439c040ca5b88beded67b3973d8/jetified-imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/e696c439c040ca5b88beded67b3973d8/jetified-imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:18:5-20:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/34509534d074f4a2ee4310c9df995de5/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/34509534d074f4a2ee4310c9df995de5/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6825810b1265af64127a63ce937f0eb6/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -372,18 +484,22 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.0] /Users
 MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/7b3219a47a842c6e84c236ed2215525c/jetified-play-services-measurement-sdk-19.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6b4b195decf898d4783eb811061bf535/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6b4b195decf898d4783eb811061bf535/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/31665edcaf53e4150e5c3297f6a32525/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/31665edcaf53e4150e5c3297f6a32525/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d10318ecd5480256ce2cedcb0a0acaf6/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d10318ecd5480256ce2cedcb0a0acaf6/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d52eeee384bdafb633ba6a2df9a2c9b1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d52eeee384bdafb633ba6a2df9a2c9b1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a3990f778b40b19aeedea94baf6ea4c9/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a3990f778b40b19aeedea94baf6ea4c9/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/4b93ac8de58ec1e72123b4660c358d2e/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/4b93ac8de58ec1e72123b4660c358d2e/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/194b3195edb7859c639b53ca5395abdc/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/194b3195edb7859c639b53ca5395abdc/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/5ccf68b5a3a9127b4980edcd49ea8e34/jetified-play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/5ccf68b5a3a9127b4980edcd49ea8e34/jetified-play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/99442e8c5c1002bdc091740ab2c74d34/jetified-play-services-measurement-base-19.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/99442e8c5c1002bdc091740ab2c74d34/jetified-play-services-measurement-base-19.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d52eeee384bdafb633ba6a2df9a2c9b1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d52eeee384bdafb633ba6a2df9a2c9b1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/4b93ac8de58ec1e72123b4660c358d2e/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/4b93ac8de58ec1e72123b4660c358d2e/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/377e33dba25c11224b822b23e5788cd1/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/377e33dba25c11224b822b23e5788cd1/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/3d3abdf75f5332f84e45535c0a73cded/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
@@ -402,12 +518,14 @@ MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/valentineorga/.gra
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/5d3192adb20d9bf386886018ccfc00f4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/7647bcaac81a96c69bff648e6b0c4123/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/7647bcaac81a96c69bff648e6b0c4123/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/7c1507e0909ff8cc61a9db17610fd594/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/7c1507e0909ff8cc61a9db17610fd594/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/7cdb36d12a0b4e03e8265bb20860bf44/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/7cdb36d12a0b4e03e8265bb20860bf44/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/f7437b3c59bfacbdc85523d95b7efaf7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/f7437b3c59bfacbdc85523d95b7efaf7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d68c2dd6c559e1e09125f815ea6604d1/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d68c2dd6c559e1e09125f815ea6604d1/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/7cdb36d12a0b4e03e8265bb20860bf44/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/7cdb36d12a0b4e03e8265bb20860bf44/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.transition:transition:1.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/685a429b7b460b1102cbd40dc6ffb21c/transition-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/685a429b7b460b1102cbd40dc6ffb21c/transition-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6e251e626ddee01f89e2773cf95b32aa/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -448,6 +566,8 @@ MERGED from [androidx.print:print:1.0.0] /Users/valentineorga/.gradle/caches/tra
 MERGED from [androidx.print:print:1.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/8a43e4cb08b9d5efaaff92255a9e853a/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d684392952d3a4d684788330ec8456c7/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
 MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d684392952d3a4d684788330ec8456c7/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2eb33fc3decbc1dc20f1cf17b12b21ff/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2eb33fc3decbc1dc20f1cf17b12b21ff/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/70945aba1d55af553dcaab829ea844bd/jetified-ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
@@ -474,22 +594,26 @@ uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.75.1] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/e1d669587456380c8d4e62dfc92484ee/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.75.1] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/e1d669587456380c8d4e62dfc92484ee/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from [:react-native-maps] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
-	android:name
-		ADDED from [:react-native-maps] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/891c642bb12c828ea6c35881dd153d53/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/fd2d2d467fbe4a611ea4abaef1b8112d/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:13:5-79
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/fd2d2d467fbe4a611ea4abaef1b8112d/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
 MERGED from [io.grpc:grpc-android:1.28.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/056c090b7b933fc6addfa1a75beb9e17/jetified-grpc-android-1.28.0/AndroidManifest.xml:11:5-79
 MERGED from [io.grpc:grpc-android:1.28.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/056c090b7b933fc6addfa1a75beb9e17/jetified-grpc-android-1.28.0/AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/31665edcaf53e4150e5c3297f6a32525/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/31665edcaf53e4150e5c3297f6a32525/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d10318ecd5480256ce2cedcb0a0acaf6/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d10318ecd5480256ce2cedcb0a0acaf6/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/5ccf68b5a3a9127b4980edcd49ea8e34/jetified-play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:24:5-79
@@ -524,6 +648,10 @@ ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/valentineor
 		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-firestore:23.0.3] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/fd2d2d467fbe4a611ea4abaef1b8112d/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/bf606e5670d7119405b2092a26d708a8/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/bf606e5670d7119405b2092a26d708a8/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
@@ -553,15 +681,81 @@ ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/valentineor
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/539b7be7a2b3a05a04064c89f6e7b6d2/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:24:5-68
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:23:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/31665edcaf53e4150e5c3297f6a32525/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/31665edcaf53e4150e5c3297f6a32525/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
 MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d10318ecd5480256ce2cedcb0a0acaf6/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d10318ecd5480256ce2cedcb0a0acaf6/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/5ccf68b5a3a9127b4980edcd49ea8e34/jetified-play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/5ccf68b5a3a9127b4980edcd49ea8e34/jetified-play-services-measurement-sdk-api-19.0.0/AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:24:22-65
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:23:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/31665edcaf53e4150e5c3297f6a32525/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/31665edcaf53e4150e5c3297f6a32525/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:32:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:25-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:45:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:46:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:46:25-75
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/bf606e5670d7119405b2092a26d708a8/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/bf606e5670d7119405b2092a26d708a8/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/bf606e5670d7119405b2092a26d708a8/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
 meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
 ADDED from [com.google.android.gms:play-services-measurement-api:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:30:13-32:85
 	android:value
@@ -586,6 +780,20 @@ ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/valentineorga/.gr
 		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
 ADDED from [com.google.android.gms:play-services-measurement:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:5-110
 MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d10318ecd5480256ce2cedcb0a0acaf6/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml:26:5-110
@@ -626,3 +834,67 @@ MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/valentineorg
 		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/819ec8c6af10e4a00a056b819af593de/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/819ec8c6af10e4a00a056b819af593de/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86

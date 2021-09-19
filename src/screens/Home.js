@@ -5,11 +5,12 @@ import {
   Text,
   View,
   TouchableOpacity,
-  ScrollView,
   Dimensions,
   BackHandler,
   TextInput,
   Keyboard,
+  PermissionsAndroid,
+  ToastAndroid,
 } from 'react-native';
 import Animated, {
   useSharedValue,
@@ -19,8 +20,11 @@ import Animated, {
 } from 'react-native-reanimated';
 
 import MapView, {Marker} from 'react-native-maps';
+// import MapViewDirections from 'react-native-maps-directions';
+
 import {Icon} from 'react-native-elements';
 import {useSelector} from 'react-redux';
+import GetLocation from 'react-native-get-location';
 
 import {styles} from '../styles/home';
 import {mapStyle} from '../styles/map';
@@ -28,7 +32,7 @@ import {mapStyle} from '../styles/map';
 import {Colors} from '../constants/colors';
 
 import ReportCard from '../components/ReportCard';
-import Chat from '../components/Chat';
+import Profile from '../components/Profile';
 
 const initialRegion = {
   latitude: 6.39067,
@@ -38,62 +42,22 @@ const initialRegion = {
 };
 const screenWidth = Dimensions.get('screen').width;
 
+let showProfile;
+let hideProfile;
+
 export default function Home() {
-  const [reports, setReports] = useState([
-    {
-      image: require('../images/image.jpg'),
-      name: 'Valentine Orga',
-      address: 'Wall Street',
-      location: {
-        latitude: 6.39067,
-        longitude: 6.94409,
-      },
-    },
-    {
-      image: require('../images/image.jpg'),
-      name: 'Ebube Boss',
-      address: 'Wall Street',
-      location: {
-        latitude: 6.39067,
-        longitude: 6.94409,
-      },
-    },
-    {
-      image: require('../images/Codm.png'),
-      name: 'Somto Goat',
-      address: 'Wall Street',
-      location: {
-        latitude: 6.39067,
-        longitude: 6.94409,
-      },
-    },
-    {
-      image: require('../images/image.jpg'),
-      name: 'Somto Somto',
-      address: 'Wall Street',
-      location: {
-        latitude: 6.39067,
-        longitude: 6.94409,
-      },
-    },
-    {
-      image: require('../images/image.jpg'),
-      name: 'Steve Money Man',
-      address: 'Wall Street',
-      location: {
-        latitude: 6.39067,
-        longitude: 6.94409,
-      },
-    },
-  ]);
   const cases = useSelector(state => state.reports);
 
+  const [myLocation, setMyLocation] = useState({
+    latitude: null,
+    longitude: null,
+  });
   const [searchText, setSearchText] = useState('');
   const [searchResults, setSearchResults] = useState([]);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [imageIndex, setImageIndex] = useState(null);
   const [viewImage, setViewImage] = useState(false);
-  const [viewReportData, setViewReportData] = useState(false);
+  const [isProfileVisible, setIsProfileVisible] = useState(false);
 
   const mapView = useRef();
 
@@ -122,7 +86,139 @@ export default function Home() {
     setSearchResults([]);
   };
 
-  const showMyLocation = location => {
+  const getLocation = () => {
+    GetLocation.getCurrentPosition({
+      enableHighAccuracy: true,
+      timeout: 30000,
+    })
+      .then(location => {
+        setMyLocation({
+          latitude: location.latitude,
+          longitude: location.longitude,
+        });
+
+        // Center location on the map
+        mapView.current.animateToRegion(
+          {
+            latitude: location.latitude,
+            longitude: location.longitude,
+            latitudeDelta: 0.05,
+            longitudeDelta: 0.05,
+          },
+          500,
+        );
+      })
+      .catch(error => {
+        ToastAndroid.show(
+          'Unable to get location. Ensure your Location and Data Connectivity is ON.',
+          ToastAndroid.LONG,
+        );
+      });
+  };
+
+  const showMyLocation = async () => {
+    /// Center my location on map
+    if (myLocation.latitude === null) {
+      ToastAndroid.show('Getting Location...', ToastAndroid.LONG);
+    } else {
+      ToastAndroid.show('Updating Location...', ToastAndroid.LONG);
+      // Animate to my location
+      mapView.current.animateToRegion(
+        {
+          latitude: myLocation.latitude,
+          longitude: myLocation.longitude,
+          latitudeDelta: 0.05,
+          longitudeDelta: 0.05,
+        },
+        500,
+      );
+    }
+
+    try {
+      let permission = await PermissionsAndroid.check(
+        PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
+      );
+
+      if (permission) {
+        // Getting location
+        GetLocation.getCurrentPosition({
+          enableHighAccuracy: true,
+          timeout: 30000,
+        })
+          .then(location => {
+            setMyLocation({
+              latitude: location.latitude,
+              longitude: location.longitude,
+            });
+
+            // Center location on the map
+            mapView.current.animateToRegion(
+              {
+                latitude: location.latitude,
+                longitude: location.longitude,
+                latitudeDelta: 0.05,
+                longitudeDelta: 0.05,
+              },
+              500,
+            );
+          })
+          .catch(error => {
+            ToastAndroid.show(
+              'Unable to get location. Ensure your Location and Data Connectivity is ON.',
+              ToastAndroid.LONG,
+            );
+          });
+        //
+      } else {
+        permission = await PermissionsAndroid.request(
+          PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
+        );
+
+        if (permission === 'granted') {
+          // Getting location
+          GetLocation.getCurrentPosition({
+            enableHighAccuracy: true,
+            timeout: 30000,
+          })
+            .then(location => {
+              setMyLocation({
+                latitude: location.latitude,
+                longitude: location.longitude,
+              });
+
+              // Center location on the map
+              mapView.current.animateToRegion(
+                {
+                  latitude: location.latitude,
+                  longitude: location.longitude,
+                  latitudeDelta: 0.05,
+                  longitudeDelta: 0.05,
+                },
+                500,
+              );
+            })
+            .catch(error => {
+              ToastAndroid.show(
+                'Unable to get location. Ensure your Location and Data Connectivity is ON.',
+                ToastAndroid.LONG,
+              );
+            });
+          //
+        } else if (permission === 'denied') {
+          return;
+        } else {
+          return;
+        }
+      }
+    } catch (err) {
+      ToastAndroid.show(
+        'Something went wrong. Please Try Again',
+        ToastAndroid.LONG,
+      );
+    }
+  };
+
+  const showUserLocation = location => {
     mapView.current.animateToRegion(
       {
         latitude: location.lat,
@@ -135,8 +231,8 @@ export default function Home() {
     hideDrawer();
   };
 
-  const viewReport = () => {
-    setViewReportData(true);
+  const viewProfile = uID => {
+    showProfile(uID);
   };
 
   const searchReports = searchText => {
@@ -166,9 +262,47 @@ export default function Home() {
     }
   };
 
+  const renderMarkers = () => {
+    return cases.map(report => (
+      <Marker
+        key={report.id}
+        coordinate={{
+          latitude: report.coords[0].lat,
+          longitude: report.coords[0].long,
+        }}
+        title="Help!"
+      />
+    ));
+  };
+
+  const renderMyLocationMarker = () => {
+    if (myLocation.latitude && myLocation.longitude) {
+      return (
+        <Marker coordinate={myLocation} title="My Location" pinColor="blue" />
+      );
+    } else {
+      return null;
+    }
+  };
+
+  const renderItem = ({item}) => (
+    <ReportCard
+      id={item.id}
+      uID={item.uID}
+      name={item.name}
+      address={item.address}
+      lat={item.coords[0].lat}
+      long={item.coords[0].long}
+      timeInSec={item.timestamp.seconds}
+      onPress={viewProfile}
+      showUserLocation={showUserLocation}
+    />
+  );
+  const renderKeyExtractor = report => report.id;
+
   const backHandler = BackHandler.addEventListener('hardwareBackPress', () => {
-    if (viewReportData) {
-      setViewReportData(false);
+    if (isProfileVisible) {
+      hideProfile();
     } else if (isDrawerOpen) {
       hideDrawer();
     } else {
@@ -179,6 +313,7 @@ export default function Home() {
   });
 
   useEffect(() => {
+    showMyLocation();
     return () => {
       backHandler.remove();
     };
@@ -192,46 +327,43 @@ export default function Home() {
         ref={mapView}
         showsCompass={false}
         initialRegion={initialRegion}>
-        {cases.map(report => (
-          <Marker
-            key={report.id}
-            coordinate={{
-              latitude: report.coords[0].lat,
-              longitude: report.coords[0].long,
-            }}
-            title="Help!">
-            <Image
-              source={require('../images/image.jpg')}
-              style={styles.marker}
-            />
-          </Marker>
-        ))}
+        {/* <MapViewDirections
+          origin={{latitude: 37.3318456, longitude: -122.0296002}}
+          destination={{latitude: 37.771707, longitude: -122.4053769}}
+          apikey="AIzaSyD8V_83xsWw8BjZz6F6w-gKgvk8IeBTDic"
+          strokeWidth={2}
+        /> */}
+        {renderMarkers()}
+
+        {renderMyLocationMarker()}
       </MapView>
 
-      {/* Header */}
-      {/* <View style={styles.headerContainer}> */}
       <Text style={styles.logo}>ADMIN</Text>
 
-      {/* <TouchableOpacity activeOpacity={0.5} onPress={showDrawer}>
-          <Icon
-            name="alert-circle-outline"
-            type="ionicon"
-            color="rgba(255,255,255,0.7)"
-            size={30}
-          />
-        </TouchableOpacity>
-      </View> */}
+      <TouchableOpacity
+        activeOpacity={0.5}
+        onPress={showMyLocation}
+        style={{...styles.hoverIcon, left: 15}}>
+        <Icon
+          reverse
+          name="street-view"
+          type="font-awesome"
+          color="rgba(255,255,255,0.7)"
+          reverseColor={Colors.secondary}
+          size={25}
+        />
+      </TouchableOpacity>
 
       <TouchableOpacity
         activeOpacity={0.5}
         onPress={showDrawer}
-        style={{position: 'absolute', bottom: 15, right: 15}}>
+        style={{...styles.hoverIcon, right: 15}}>
         <Icon
           reverse
           name="alert-circle-outline"
           type="ionicon"
           color="rgba(225,0,0,0.7)"
-          size={30}
+          size={25}
         />
       </TouchableOpacity>
 
@@ -245,11 +377,7 @@ export default function Home() {
         />
 
         {/* Reports Section */}
-        <View
-          style={{
-            backgroundColor: Colors.primary,
-            flex: 3,
-          }}>
+        <View style={styles.reportsSection}>
           {/* Search Bar */}
           <TextInput
             placeholder="Search Name/Address"
@@ -260,37 +388,24 @@ export default function Home() {
 
           <FlatList
             data={searchResults.length == 0 ? cases : searchResults}
-            keyExtractor={report => Math.random().toString()}
+            keyExtractor={renderKeyExtractor}
             showsVerticalScrollIndicator={false}
-            renderItem={({item}) => (
-              <TouchableOpacity onPress={viewReport}>
-                <ReportCard reportData={item} showMyLocation={showMyLocation} />
-              </TouchableOpacity>
-            )}
+            renderItem={renderItem}
           />
         </View>
       </Animated.View>
 
       {/* Components below pop up */}
 
-      {/* Chat Popup */}
-      {viewReportData ? <Chat setViewReportData={setViewReportData} /> : null}
+      {/* Profile Popup */}
 
-      {/* Profile Image Popup */}
-      {viewImage ? (
-        <TouchableOpacity
-          activeOpacity={0}
-          onPress={() => setViewImage(false)}
-          style={styles.popUpContainer}>
-          <TouchableOpacity activeOpacity={1} style={styles.image}>
-            <Image
-              source={reports[imageIndex].image}
-              style={{width: '100%', height: '100%'}}
-              resizeMode="contain"
-            />
-          </TouchableOpacity>
-        </TouchableOpacity>
-      ) : null}
+      <Profile
+        onRender={(show, hide) => {
+          showProfile = show;
+          hideProfile = hide;
+        }}
+        visible={setIsProfileVisible}
+      />
     </View>
   );
 }

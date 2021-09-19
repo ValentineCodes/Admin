@@ -5,11 +5,13 @@ import android.content.Context;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactInstanceManager;
+import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
 import com.facebook.react.bridge.JSIModulePackage;
 import com.swmansion.reanimated.ReanimatedJSIModulePackage;
+import com.thebylito.navigationbarcolor.NavigationBarColorPackage;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
@@ -38,7 +40,7 @@ public class MainApplication extends Application implements ReactApplication {
 
         @Override
         protected JSIModulePackage getJSIModulePackage() {
-          return new ReanimatedJSIModulePackage(); // <- add
+          return new ReanimatedJSIModulePackage();
         }
       };
 

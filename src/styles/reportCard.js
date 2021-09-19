@@ -9,11 +9,13 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     width: '100%',
     borderBottomWidth: 1,
+    borderBottomColor: 'rgba(200, 200, 200, 0.2)',
     borderRadius: 20,
     paddingBottom: 10,
     paddingHorizontal: 10,
     marginTop: 30,
   },
+  userInfo: {marginLeft: 10, flex: 1},
   header: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -41,5 +43,11 @@ export const styles = StyleSheet.create({
   timestamp: {
     color: 'white',
     fontSize: 10,
+  },
+  menuOption: {
+    color: 'white',
+    fontSize: 16,
+    paddingVertical: 7,
+    marginLeft: 10,
   },
 });
