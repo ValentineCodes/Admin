@@ -3,27 +3,25 @@ import {Colors} from '../constants/colors';
 const screenWidth = Dimensions.get('screen').width;
 
 export const styles = StyleSheet.create({
-  headerContainer: {
+  header: {
     position: 'absolute',
     top: 0,
     width: '100%',
-    paddingVertical: 20,
+    paddingVertical: 40,
     paddingHorizontal: 25,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
   },
   logo: {
-    position: 'absolute',
-    top: 20,
-    left: 25,
-    paddingVertical: 20,
     fontSize: 23,
     fontWeight: 'bold',
-    color: 'white',
+    color: 'black',
   },
   marker: {width: 30, height: 30, borderRadius: 100},
-  hoverIcon: {position: 'absolute', bottom: 45},
+  hoverIconReports: {position: 'absolute', bottom: 45, right: 15},
+  hoverIconLocation: {position: 'absolute', bottom: 120, right: 15},
+  badge: {position: 'absolute', top: 4, right: -4},
   drawerStyle: {
     position: 'absolute',
     width: '100%',

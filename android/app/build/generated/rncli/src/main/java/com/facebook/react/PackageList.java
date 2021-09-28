@@ -19,6 +19,10 @@ import org.reactnative.maskedview.RNCMaskedViewPackage;
 import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
 // @react-native-firebase/firestore
 import io.invertase.firebase.firestore.ReactNativeFirebaseFirestorePackage;
+// react-native-bootsplash
+import com.zoontek.rnbootsplash.RNBootSplashPackage;
+// react-native-fast-image
+import com.dylanvann.fastimage.FastImageViewPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 // react-native-get-location
@@ -86,6 +90,8 @@ public class PackageList {
       new RNCMaskedViewPackage(),
       new ReactNativeFirebaseAppPackage(),
       new ReactNativeFirebaseFirestorePackage(),
+      new RNBootSplashPackage(),
+      new FastImageViewPackage(),
       new RNGestureHandlerPackage(),
       new ReactNativeGetLocationPackage(),
       new MapsPackage(),

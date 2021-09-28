@@ -4,12 +4,44 @@
         "source": "/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_bootsplash_logo.png.flat",
+        "source": "/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/res/mipmap-mdpi/bootsplash_logo.png"
+    },
+    {
         "merged": "/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_bootsplash_logo.png.flat",
+        "source": "/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/res/mipmap-hdpi/bootsplash_logo.png"
+    },
+    {
+        "merged": "/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_bootsplash_logo.png.flat",
+        "source": "/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/res/mipmap-xxhdpi/bootsplash_logo.png"
+    },
+    {
+        "merged": "/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_bootsplash_logo.png.flat",
+        "source": "/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/res/mipmap-xhdpi/bootsplash_logo.png"
+    },
+    {
+        "merged": "/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/res/merged/debug/drawable_bootsplash.xml.flat",
+        "source": "/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/res/drawable/bootsplash.xml"
     },
     {
         "merged": "/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -24,19 +56,11 @@
         "source": "/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_bootsplash_logo.png.flat",
+        "source": "/Users/valentineorga/Desktop/Projects/Admin/android/app/src/main/res/mipmap-xxxhdpi/bootsplash_logo.png"
     }
 ]

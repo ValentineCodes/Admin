@@ -1,5 +1,5 @@
-import React, {useState, useEffect, useCallback} from 'react';
-import {View, Text, TouchableOpacity, Image} from 'react-native';
+import React, {useState, useEffect} from 'react';
+import {View, Text, TouchableNativeFeedback, ToastAndroid} from 'react-native';
 import {Icon} from 'react-native-elements';
 import {useDispatch} from 'react-redux';
 import {formatDistance} from 'date-fns';
@@ -11,7 +11,7 @@ import {
 } from 'react-native-popup-menu';
 import firestore from '@react-native-firebase/firestore';
 
-import {Colors} from '../constants/colors';
+// import {Colors} from '../constants/colors';
 import {styles} from '../styles/reportCard';
 
 export default function ReportCard({
@@ -22,8 +22,8 @@ export default function ReportCard({
   lat,
   long,
   timeInSec,
-  onPress,
   showUserLocation,
+  navigation,
 }) {
   const dispatch = useDispatch();
 
@@ -34,13 +34,25 @@ export default function ReportCard({
 
   const timestamp = formatDistance(date, new Date(), {addSuffix: true});
 
-  const handled = () => {
-    console.log(id);
+  const displayMsg = msg => {
+    ToastAndroid.show(msg, ToastAndroid.LONG);
+  };
+
+  const sendNotification = () => {
+    navigation.navigate('Notification', {
+      id: uID,
+      name,
+    });
+  };
+
+  const toggleBlocked = () => {
+    displayMsg(`You ${isUserBlocked ? 'unblocked' : 'blocked'} ${name}`);
+
     firestore()
-      .collection('reports')
-      .doc(id)
+      .collection('users')
+      .doc(uID)
       .update({
-        handled: true,
+        blocked: !isUserBlocked,
       })
       .catch(err => {
         return;
@@ -48,6 +60,8 @@ export default function ReportCard({
   };
 
   const blockUser = () => {
+    displayMsg(`You blocked ${name}`);
+
     firestore()
       .collection('users')
       .doc(uID)
@@ -60,6 +74,7 @@ export default function ReportCard({
   };
 
   const unblockedUser = () => {
+    displayMsg(`You unblocked ${name}`);
     firestore()
       .collection('users')
       .doc(uID)
@@ -71,7 +86,30 @@ export default function ReportCard({
       });
   };
 
+  const removeReportFromRedux = () => {
+    dispatch({
+      type: 'removeReport',
+      payload: id,
+    });
+  };
+
+  const handled = () => {
+    removeReportFromRedux();
+
+    firestore()
+      .collection('reports')
+      .doc(id)
+      .update({
+        handled: true,
+      })
+      .catch(err => {
+        return;
+      });
+  };
+
   const deleteReport = () => {
+    removeReportFromRedux();
+
     firestore()
       .collection('reports')
       .doc(id)
@@ -80,6 +118,23 @@ export default function ReportCard({
         return;
       });
   };
+
+  const showLocation = () => {
+    showUserLocation({lat, long});
+  };
+
+  const viewProfile = () => {
+    navigation.navigate('Profile', {
+      id: uID,
+    });
+  };
+
+  // const markAsSeen = () => {
+  //   dispatch({
+  //     type: 'markAsSeen',
+  //     payload: id,
+  //   });
+  // };
 
   useEffect(() => {
     const unsubscribe = firestore()
@@ -99,43 +154,52 @@ export default function ReportCard({
   }, []);
 
   return (
-    <View style={styles.container}>
-      {/* Full Name and Address */}
-      <TouchableOpacity
-        onPress={onPress.bind(this, uID)}
-        style={styles.userInfo}>
-        <Text style={styles.name}>{username}</Text>
-        <Text style={styles.address}>{address}</Text>
-        <Text style={styles.timestamp}>{timestamp}</Text>
-      </TouchableOpacity>
-      {/* </View> */}
+    <TouchableNativeFeedback>
+      <View style={styles.container}>
+        {/* Full Name and Address */}
 
-      {/* Menu */}
-      <Menu>
-        <MenuTrigger>
-          <Icon name="ellipsis-vertical-outline" type="ionicon" color="white" />
-        </MenuTrigger>
-        <MenuOptions
-          optionsContainerStyle={{backgroundColor: 'rgba(0,0,0,0.5)'}}>
-          <MenuOption onSelect={() => showUserLocation({lat, long})}>
-            <Text style={styles.menuOption}>Show location</Text>
-          </MenuOption>
-          <MenuOption>
-            <Text style={styles.menuOption}>Send Notification</Text>
-          </MenuOption>
-          <MenuOption onSelect={handled}>
-            <Text style={styles.menuOption}>Handled</Text>
-          </MenuOption>
-          <MenuOption onSelect={isUserBlocked ? unblockedUser : blockUser}>
-            <Text style={styles.menuOption}>
-              {isUserBlocked ? 'Unblock' : 'Block'}
-            </Text>
-          </MenuOption>
-          <MenuOption onSelect={deleteReport}>
-            <Text style={{...styles.menuOption, color: 'red'}}>Delete</Text>
-          </MenuOption>
-        </MenuOptions>
-      </Menu>
-    </View>
+        <View style={styles.userInfo}>
+          <Text style={styles.name}>{username}</Text>
+          <Text style={styles.address}>{address}</Text>
+          <Text style={styles.timestamp}>{timestamp}</Text>
+        </View>
+
+        {/* </View> */}
+
+        {/* Menu */}
+        <Menu>
+          <MenuTrigger>
+            <Icon
+              name="ellipsis-vertical-outline"
+              type="ionicon"
+              color="white"
+            />
+          </MenuTrigger>
+          <MenuOptions
+            optionsContainerStyle={{backgroundColor: 'rgba(0,0,0,0.5)'}}>
+            <MenuOption onSelect={showLocation}>
+              <Text style={styles.menuOption}>Show location</Text>
+            </MenuOption>
+            <MenuOption onSelect={viewProfile}>
+              <Text style={styles.menuOption}>View profile</Text>
+            </MenuOption>
+            <MenuOption onSelect={sendNotification}>
+              <Text style={styles.menuOption}>Send notification</Text>
+            </MenuOption>
+            <MenuOption onSelect={handled}>
+              <Text style={styles.menuOption}>Handled</Text>
+            </MenuOption>
+            <MenuOption onSelect={toggleBlocked}>
+              <Text style={styles.menuOption}>
+                {isUserBlocked ? 'Unblock' : 'Block'}
+              </Text>
+            </MenuOption>
+            <MenuOption onSelect={deleteReport}>
+              <Text style={{...styles.menuOption, color: 'red'}}>Delete</Text>
+            </MenuOption>
+          </MenuOptions>
+        </Menu>
+      </View>
+    </TouchableNativeFeedback>
   );
 }

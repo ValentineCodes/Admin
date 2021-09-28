@@ -1,15 +1,23 @@
 import React, {useEffect} from 'react';
-import {View, StatusBar} from 'react-native';
+import {View, Text, StatusBar} from 'react-native';
 import firestore from '@react-native-firebase/firestore';
 import {useDispatch, useSelector} from 'react-redux';
 import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import PushNotification from 'react-native-push-notification';
 import changeNavigationBarColor from 'react-native-navigation-bar-color';
+import RNBootSplash from 'react-native-bootsplash';
 
+// Screens
 import Home from './src/screens/Home';
+import Notification from './src/screens/Notification';
+import Users from './src/screens/Users';
+import Profile from './src/screens/Profile';
+
+const Stack = createNativeStackNavigator();
 
 const App = () => {
-  const currentReports = useSelector(state => state.reports);
+  let currentReports = useSelector(state => state.reports);
   const dispatch = useDispatch();
 
   const sendNotification = msg => {
@@ -24,6 +32,7 @@ const App = () => {
   };
 
   useEffect(() => {
+    RNBootSplash.hide({fade: true});
     changeNavigationBarColor('transparent', true);
 
     // Listen for new updates
@@ -39,7 +48,9 @@ const App = () => {
           })
           .filter(report => report.handled === false);
 
-        // sendNotification('New reports have arrived');
+        // if (reports.length > currentReports.length) {
+        //   sendNotification('You have a new report');
+        // }
 
         // Store reports in redux
         dispatch({
@@ -50,12 +61,33 @@ const App = () => {
   }, []);
 
   return (
-    <NavigationContainer>
-      <View style={{flex: 1, backgroundColor: 'rgba(0,8,51, 0.9)'}}>
-        <StatusBar backgroundColor="rgba(0,8,51,0.8)" />
-        <Home />
-      </View>
-    </NavigationContainer>
+    <View style={{flex: 1, backgroundColor: 'rgba(0,8,51, 0.9)'}}>
+      <NavigationContainer>
+        <StatusBar backgroundColor="rgba(0,8,51,0.8)" barStyle="dark-content" />
+        <Stack.Navigator>
+          <Stack.Screen
+            name="Home"
+            component={Home}
+            options={{headerShown: false}}
+          />
+          <Stack.Screen
+            name="Notification"
+            component={Notification}
+            options={{headerShown: false}}
+          />
+          <Stack.Screen
+            name="Users"
+            component={Users}
+            options={{headerShown: false}}
+          />
+          <Stack.Screen
+            name="Profile"
+            component={Profile}
+            options={{headerShown: false}}
+          />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </View>
   );
 };
 

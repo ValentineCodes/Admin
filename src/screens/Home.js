@@ -16,12 +16,10 @@ import Animated, {
   useSharedValue,
   useAnimatedStyle,
   withTiming,
-  withSpring,
+  withDelay,
 } from 'react-native-reanimated';
-
 import MapView, {Marker} from 'react-native-maps';
 // import MapViewDirections from 'react-native-maps-directions';
-
 import {Icon} from 'react-native-elements';
 import {useSelector} from 'react-redux';
 import GetLocation from 'react-native-get-location';
@@ -32,7 +30,6 @@ import {mapStyle} from '../styles/map';
 import {Colors} from '../constants/colors';
 
 import ReportCard from '../components/ReportCard';
-import Profile from '../components/Profile';
 
 const initialRegion = {
   latitude: 6.39067,
@@ -42,11 +39,8 @@ const initialRegion = {
 };
 const screenWidth = Dimensions.get('screen').width;
 
-let showProfile;
-let hideProfile;
-
-export default function Home() {
-  const cases = useSelector(state => state.reports);
+export default function Home({navigation}) {
+  const reports = useSelector(state => state.reports);
 
   const [myLocation, setMyLocation] = useState({
     latitude: null,
@@ -62,6 +56,7 @@ export default function Home() {
   const mapView = useRef();
 
   const drawerPositon = useSharedValue(screenWidth);
+  const drawerOpacity = useSharedValue(0);
 
   const animatedDrawerStyle = useAnimatedStyle(() => {
     return {
@@ -69,10 +64,20 @@ export default function Home() {
     };
   });
 
+  const animatedDrawerOpacity = useAnimatedStyle(() => {
+    return {
+      backgroundColor: `rgba(0,0,0,${drawerOpacity.value})`,
+    };
+  });
+
   const showDrawer = () => {
     setIsDrawerOpen(true);
     drawerPositon.value = withTiming(0, {
       duration: 400,
+    });
+
+    drawerOpacity.value = withTiming(0.5, {
+      duration: 780,
     });
   };
 
@@ -83,6 +88,10 @@ export default function Home() {
     drawerPositon.value = withTiming(screenWidth, {
       duration: 400,
     });
+    drawerOpacity.value = withTiming(0, {
+      duration: 100,
+    });
+
     setSearchResults([]);
   };
 
@@ -127,8 +136,8 @@ export default function Home() {
         {
           latitude: myLocation.latitude,
           longitude: myLocation.longitude,
-          latitudeDelta: 0.05,
-          longitudeDelta: 0.05,
+          latitudeDelta: 0.005,
+          longitudeDelta: 0.005,
         },
         500,
       );
@@ -156,8 +165,8 @@ export default function Home() {
               {
                 latitude: location.latitude,
                 longitude: location.longitude,
-                latitudeDelta: 0.05,
-                longitudeDelta: 0.05,
+                latitudeDelta: 0.005,
+                longitudeDelta: 0.005,
               },
               500,
             );
@@ -223,16 +232,12 @@ export default function Home() {
       {
         latitude: location.lat,
         longitude: location.long,
-        latitudeDelta: 0.05,
-        longitudeDelta: 0.05,
+        latitudeDelta: 0.005,
+        longitudeDelta: 0.005,
       },
       500,
     );
     hideDrawer();
-  };
-
-  const viewProfile = uID => {
-    showProfile(uID);
   };
 
   const searchReports = searchText => {
@@ -241,7 +246,7 @@ export default function Home() {
       setSearchResults([]);
     } else {
       setSearchResults(
-        cases.filter(user => {
+        reports.filter(user => {
           if (
             user.name
               .toLowerCase()
@@ -263,7 +268,7 @@ export default function Home() {
   };
 
   const renderMarkers = () => {
-    return cases.map(report => (
+    return reports.map(report => (
       <Marker
         key={report.id}
         coordinate={{
@@ -294,8 +299,8 @@ export default function Home() {
       lat={item.coords[0].lat}
       long={item.coords[0].long}
       timeInSec={item.timestamp.seconds}
-      onPress={viewProfile}
       showUserLocation={showUserLocation}
+      navigation={navigation}
     />
   );
   const renderKeyExtractor = report => report.id;
@@ -323,7 +328,7 @@ export default function Home() {
     <View style={{flex: 1}}>
       <MapView
         style={{flex: 1}}
-        customMapStyle={mapStyle}
+        // customMapStyle={mapStyle}
         ref={mapView}
         showsCompass={false}
         initialRegion={initialRegion}>
@@ -338,32 +343,40 @@ export default function Home() {
         {renderMyLocationMarker()}
       </MapView>
 
-      <Text style={styles.logo}>ADMIN</Text>
+      <View style={styles.header}>
+        <Text style={styles.logo}>ADMIN</Text>
+
+        <TouchableOpacity onPress={() => navigation.navigate('Users')}>
+          <Icon name="people-outline" type="ionicon" color="black" />
+        </TouchableOpacity>
+      </View>
 
       <TouchableOpacity
         activeOpacity={0.5}
         onPress={showMyLocation}
-        style={{...styles.hoverIcon, left: 15}}>
+        style={styles.hoverIconLocation}>
         <Icon
           reverse
+          raised
           name="street-view"
           type="font-awesome"
-          color="rgba(255,255,255,0.7)"
+          color="rgba(255,255,255,1)"
           reverseColor={Colors.secondary}
-          size={25}
+          size={27}
         />
       </TouchableOpacity>
 
       <TouchableOpacity
         activeOpacity={0.5}
         onPress={showDrawer}
-        style={{...styles.hoverIcon, right: 15}}>
+        style={styles.hoverIconReports}>
         <Icon
           reverse
+          raised
           name="alert-circle-outline"
           type="ionicon"
-          color="rgba(225,0,0,0.7)"
-          size={25}
+          color="rgba(219,011,0,1)"
+          size={27}
         />
       </TouchableOpacity>
 
@@ -373,9 +386,9 @@ export default function Home() {
         <TouchableOpacity
           activeOpacity={1}
           onPress={hideDrawer}
-          style={{flex: 1}}
-        />
-
+          style={{flex: 1}}>
+          <Animated.View style={[animatedDrawerOpacity, {flex: 1}]} />
+        </TouchableOpacity>
         {/* Reports Section */}
         <View style={styles.reportsSection}>
           {/* Search Bar */}
@@ -387,25 +400,13 @@ export default function Home() {
           />
 
           <FlatList
-            data={searchResults.length == 0 ? cases : searchResults}
+            data={searchResults.length == 0 ? reports : searchResults}
             keyExtractor={renderKeyExtractor}
             showsVerticalScrollIndicator={false}
             renderItem={renderItem}
           />
         </View>
       </Animated.View>
-
-      {/* Components below pop up */}
-
-      {/* Profile Popup */}
-
-      <Profile
-        onRender={(show, hide) => {
-          showProfile = show;
-          hideProfile = hide;
-        }}
-        visible={setIsProfileVisible}
-      />
     </View>
   );
 }

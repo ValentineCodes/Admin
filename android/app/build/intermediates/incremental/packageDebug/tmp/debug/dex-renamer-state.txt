@@ -1,4 +1,4 @@
-#Sat Sep 18 10:06:44 WAT 2021
+#Tue Sep 28 07:45:04 WAT 2021
 base.2=/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/dex/debug/mergeLibDexDebug/classes_0.dex
 base.1=/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
 base.0=/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
@@ -20,13 +20,19 @@ renamed.3=classes4.dex
 path.1=classes.dex
 renamed.2=classes3.dex
 path.0=classes.dex
+renamed.17=classes18.dex
 renamed.1=classes2.dex
+renamed.16=classes17.dex
 renamed.0=classes.dex
 renamed.15=classes16.dex
 renamed.14=classes15.dex
 renamed.13=classes14.dex
 renamed.12=classes13.dex
+path.17=classes_14.dex
+base.17=/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/dex/debug/mergeLibDexDebug/classes_14.dex
 renamed.11=classes12.dex
+path.16=classes_13.dex
+base.16=/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/dex/debug/mergeLibDexDebug/classes_13.dex
 renamed.10=classes11.dex
 path.15=classes_12.dex
 base.15=/Users/valentineorga/Desktop/Projects/Admin/android/app/build/intermediates/dex/debug/mergeLibDexDebug/classes_12.dex
