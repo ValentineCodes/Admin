@@ -1,7 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react';
 import {
   FlatList,
-  Image,
   Text,
   View,
   TouchableOpacity,
@@ -16,7 +15,6 @@ import Animated, {
   useSharedValue,
   useAnimatedStyle,
   withTiming,
-  withDelay,
 } from 'react-native-reanimated';
 import MapView, {Marker} from 'react-native-maps';
 // import MapViewDirections from 'react-native-maps-directions';
@@ -25,7 +23,7 @@ import {useSelector} from 'react-redux';
 import GetLocation from 'react-native-get-location';
 
 import {styles} from '../styles/home';
-import {mapStyle} from '../styles/map';
+// import {mapStyle} from '../styles/map';
 
 import {Colors} from '../constants/colors';
 
@@ -49,9 +47,6 @@ export default function Home({navigation}) {
   const [searchText, setSearchText] = useState('');
   const [searchResults, setSearchResults] = useState([]);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-  const [imageIndex, setImageIndex] = useState(null);
-  const [viewImage, setViewImage] = useState(false);
-  const [isProfileVisible, setIsProfileVisible] = useState(false);
 
   const mapView = useRef();
 
@@ -275,7 +270,7 @@ export default function Home({navigation}) {
           latitude: report.coords[0].lat,
           longitude: report.coords[0].long,
         }}
-        title="Help!"
+        title={report.address}
       />
     ));
   };
@@ -306,9 +301,7 @@ export default function Home({navigation}) {
   const renderKeyExtractor = report => report.id;
 
   const backHandler = BackHandler.addEventListener('hardwareBackPress', () => {
-    if (isProfileVisible) {
-      hideProfile();
-    } else if (isDrawerOpen) {
+    if (isDrawerOpen) {
       hideDrawer();
     } else {
       BackHandler.exitApp();

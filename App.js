@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {View, Text, StatusBar} from 'react-native';
+import {View, StatusBar, StyleSheet} from 'react-native';
 import firestore from '@react-native-firebase/firestore';
 import {useDispatch, useSelector} from 'react-redux';
 import {NavigationContainer} from '@react-navigation/native';
@@ -13,6 +13,7 @@ import Home from './src/screens/Home';
 import Notification from './src/screens/Notification';
 import Users from './src/screens/Users';
 import Profile from './src/screens/Profile';
+import ReportInfo from './src/screens/ReportInfo';
 
 const Stack = createNativeStackNavigator();
 
@@ -61,7 +62,7 @@ const App = () => {
   }, []);
 
   return (
-    <View style={{flex: 1, backgroundColor: 'rgba(0,8,51, 0.9)'}}>
+    <View style={styles.container}>
       <NavigationContainer>
         <StatusBar backgroundColor="rgba(0,8,51,0.8)" barStyle="dark-content" />
         <Stack.Navigator>
@@ -85,10 +86,19 @@ const App = () => {
             component={Profile}
             options={{headerShown: false}}
           />
+          <Stack.Screen
+            name="ReportInfo"
+            component={ReportInfo}
+            options={{headerShown: false}}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {flex: 1, backgroundColor: 'rgba(0,8,51, 0.9)'},
+});
 
 export default App;

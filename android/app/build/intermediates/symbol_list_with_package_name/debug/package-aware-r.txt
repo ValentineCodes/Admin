@@ -569,6 +569,7 @@ attr roundedCornerRadius
 attr roundingBorderColor
 attr roundingBorderPadding
 attr roundingBorderWidth
+attr scalableType
 attr scopeUris
 attr scrimAnimationDuration
 attr scrimBackground
@@ -1527,8 +1528,12 @@ id buttonPanel
 id cancel_button
 id catalyst_redbox_title
 id center
+id centerBottom
+id centerBottomCrop
 id centerCrop
 id centerInside
+id centerTop
+id centerTopCrop
 id center_horizontal
 id center_vertical
 id checkbox
@@ -1562,6 +1567,7 @@ id disableHome
 id dropdown_menu
 id edit_query
 id end
+id endInside
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
@@ -1605,6 +1611,12 @@ id item_touch_helper_previous_elevation
 id labeled
 id largeLabel
 id left
+id leftBottom
+id leftBottomCrop
+id leftCenter
+id leftCenterCrop
+id leftTop
+id leftTopCrop
 id light
 id line1
 id line3
@@ -1663,6 +1675,12 @@ id progress_horizontal
 id radio
 id react_test_id
 id right
+id rightBottom
+id rightBottomCrop
+id rightCenter
+id rightCenterCrop
+id rightTop
+id rightTopCrop
 id right_icon
 id right_side
 id rn_frame_file
@@ -1715,6 +1733,7 @@ id src_in
 id src_over
 id standard
 id start
+id startInside
 id stretch
 id submenuarrow
 id submit_area
@@ -2879,6 +2898,7 @@ styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
+styleable scaleStyle scalableType
 xml rn_dev_preferences
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end

@@ -38,6 +38,12 @@ export default function ReportCard({
     ToastAndroid.show(msg, ToastAndroid.LONG);
   };
 
+  const viewMoreInfo = () => {
+    navigation.navigate('ReportInfo', {
+      id,
+    });
+  };
+
   const sendNotification = () => {
     navigation.navigate('Notification', {
       id: uID,
@@ -129,13 +135,6 @@ export default function ReportCard({
     });
   };
 
-  // const markAsSeen = () => {
-  //   dispatch({
-  //     type: 'markAsSeen',
-  //     payload: id,
-  //   });
-  // };
-
   useEffect(() => {
     const unsubscribe = firestore()
       .collection('users')
@@ -154,7 +153,7 @@ export default function ReportCard({
   }, []);
 
   return (
-    <TouchableNativeFeedback>
+    <TouchableNativeFeedback onPress={viewMoreInfo}>
       <View style={styles.container}>
         {/* Full Name and Address */}
 

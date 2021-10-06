@@ -23,6 +23,7 @@ MERGED from [:react-native-get-location] /Users/valentineorga/Desktop/Projects/A
 MERGED from [:react-native-safe-area-context] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-vector-icons] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-video] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-video/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.64.2] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/75b24be55300a09ad982ed2efd1befdb/jetified-react-native-0.64.2/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/bc41568f187cafaf5fb6dce3136d9ccf/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/891c642bb12c828ea6c35881dd153d53/jetified-play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
@@ -115,6 +116,7 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/8a43e4cb08b9d5efaaff92255a9e853a/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d684392952d3a4d684788330ec8456c7/jetified-android-maps-utils-0.5/AndroidManifest.xml:2:1-13:12
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6c645d220f6dcf9fb92091107d3ec636/jetified-android-scalablevideoview-1.0.4/AndroidManifest.xml:2:1-12:12
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2eb33fc3decbc1dc20f1cf17b12b21ff/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/70945aba1d55af553dcaab829ea844bd/jetified-ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/9cd4656b7fe37a796b3a4a34c7e0217f/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
@@ -418,6 +420,8 @@ MERGED from [:react-native-screens] /Users/valentineorga/Desktop/Projects/Admin/
 MERGED from [:react-native-screens] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-video] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-video/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-video] /Users/valentineorga/Desktop/Projects/Admin/node_modules/react-native-video/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.64.2] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/75b24be55300a09ad982ed2efd1befdb/jetified-react-native-0.64.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.64.2] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/75b24be55300a09ad982ed2efd1befdb/jetified-react-native-0.64.2/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/bc41568f187cafaf5fb6dce3136d9ccf/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -602,6 +606,8 @@ MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/valentineorg
 MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/d684392952d3a4d684788330ec8456c7/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6c645d220f6dcf9fb92091107d3ec636/jetified-android-scalablevideoview-1.0.4/AndroidManifest.xml:8:5-10:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/6c645d220f6dcf9fb92091107d3ec636/jetified-android-scalablevideoview-1.0.4/AndroidManifest.xml:8:5-10:41
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2eb33fc3decbc1dc20f1cf17b12b21ff/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/2eb33fc3decbc1dc20f1cf17b12b21ff/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/valentineorga/.gradle/caches/transforms-2/files-2.1/70945aba1d55af553dcaab829ea844bd/jetified-ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
